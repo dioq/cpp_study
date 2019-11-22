@@ -12,10 +12,14 @@ using namespace std;
 #include "study02.hpp"
 #include "study03.hpp"
 #include "study04.hpp"
+#include "study05.hpp"
+#include "study06.hpp"
 
 int main(int argc, const char * argv[]) {
     
-    func11();
+    func14();
+//    func13();
+//    func11();
 //    func10();
 //    func09();
 //    func08();

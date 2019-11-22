@@ -12,6 +12,8 @@
 		CE0C12E92387CB6F00BBC27D /* study02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0C12E72387CB6F00BBC27D /* study02.cpp */; };
 		CE0C13162387E67100BBC27D /* study03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0C13142387E67100BBC27D /* study03.cpp */; };
 		CE0C13192387F7C700BBC27D /* study04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0C13172387F7C700BBC27D /* study04.cpp */; };
+		CE0C131C2387FD3000BBC27D /* study05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0C131A2387FD3000BBC27D /* study05.cpp */; };
+		CE0C131F2387FE3200BBC27D /* study06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0C131D2387FE3200BBC27D /* study06.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,10 @@
 		CE0C13152387E67100BBC27D /* study03.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = study03.hpp; sourceTree = "<group>"; };
 		CE0C13172387F7C700BBC27D /* study04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = study04.cpp; sourceTree = "<group>"; };
 		CE0C13182387F7C700BBC27D /* study04.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = study04.hpp; sourceTree = "<group>"; };
+		CE0C131A2387FD3000BBC27D /* study05.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = study05.cpp; sourceTree = "<group>"; };
+		CE0C131B2387FD3000BBC27D /* study05.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = study05.hpp; sourceTree = "<group>"; };
+		CE0C131D2387FE3200BBC27D /* study06.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = study06.cpp; sourceTree = "<group>"; };
+		CE0C131E2387FE3200BBC27D /* study06.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = study06.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				CE0C12DB23877FB300BBC27D /* main.cpp */,
+				CE0C131E2387FE3200BBC27D /* study06.hpp */,
+				CE0C131D2387FE3200BBC27D /* study06.cpp */,
+				CE0C131B2387FD3000BBC27D /* study05.hpp */,
+				CE0C131A2387FD3000BBC27D /* study05.cpp */,
 				CE0C13182387F7C700BBC27D /* study04.hpp */,
 				CE0C13172387F7C700BBC27D /* study04.cpp */,
 				CE0C13152387E67100BBC27D /* study03.hpp */,
@@ -139,11 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0C131C2387FD3000BBC27D /* study05.cpp in Sources */,
 				CE0C13192387F7C700BBC27D /* study04.cpp in Sources */,
 				CE0C13162387E67100BBC27D /* study03.cpp in Sources */,
 				CE0C12E92387CB6F00BBC27D /* study02.cpp in Sources */,
 				CE0C12E62387966100BBC27D /* study01.cpp in Sources */,
 				CE0C12DC23877FB300BBC27D /* main.cpp in Sources */,
+				CE0C131F2387FE3200BBC27D /* study06.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
