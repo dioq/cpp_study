@@ -14,10 +14,19 @@ using namespace std;
 #include "study04.hpp"
 #include "study05.hpp"
 #include "study06.hpp"
+#include "study07.hpp"
+#include "study08.hpp"
+#include "study09.hpp"
+#include "study10.hpp"
 
 int main(int argc, const char * argv[]) {
-    
-    func14();
+    func20();
+//    func19();
+//    func18();
+//    func17();
+//    func16();
+//    func15();
+//    func14();
 //    func13();
 //    func11();
 //    func10();

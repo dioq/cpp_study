@@ -17,9 +17,13 @@ using namespace std;
 void *PrintHello(void *threadid) {
     // 对传入的参数进行强制类型转换，由无类型指针变为整形数指针，然后再读取
     int tid = *((int*)threadid);
-    cout << "Hello Runoob! 线程 ID, " << tid << endl;
+    string show = "Hello Runoob! 线程 ID = " + to_string(tid) + "\n";
+    cout << show;
     pthread_exit(NULL);
 }
+/*
+ 以下简单的实例代码使用 pthread_create() 函数创建了 5 个线程，并接收传入的参数。每个线程打印一个 "Hello Runoob!" 消息，并输出接收的参数，然后调用 pthread_exit() 终止线程。
+ **/
 void func14(){
     pthread_t threads[NUM_THREADS];
     int indexes[NUM_THREADS];// 用数组来保存i的值
@@ -38,3 +42,7 @@ void func14(){
     }
     pthread_exit(NULL);
 }
+
+int sum22(){
+    return 22;
+};

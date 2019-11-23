@@ -14,6 +14,10 @@
 		CE0C13192387F7C700BBC27D /* study04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0C13172387F7C700BBC27D /* study04.cpp */; };
 		CE0C131C2387FD3000BBC27D /* study05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0C131A2387FD3000BBC27D /* study05.cpp */; };
 		CE0C131F2387FE3200BBC27D /* study06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0C131D2387FE3200BBC27D /* study06.cpp */; };
+		CE0C13222388DE9300BBC27D /* study07.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0C13202388DE9300BBC27D /* study07.cpp */; };
+		CE0C13252388E49200BBC27D /* study08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0C13232388E49200BBC27D /* study08.cpp */; };
+		CE0C13282388F92700BBC27D /* study09.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0C13262388F92700BBC27D /* study09.cpp */; };
+		CE0C132B2388FE1A00BBC27D /* study10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE0C13292388FE1A00BBC27D /* study10.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +47,14 @@
 		CE0C131B2387FD3000BBC27D /* study05.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = study05.hpp; sourceTree = "<group>"; };
 		CE0C131D2387FE3200BBC27D /* study06.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = study06.cpp; sourceTree = "<group>"; };
 		CE0C131E2387FE3200BBC27D /* study06.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = study06.hpp; sourceTree = "<group>"; };
+		CE0C13202388DE9300BBC27D /* study07.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = study07.cpp; sourceTree = "<group>"; };
+		CE0C13212388DE9300BBC27D /* study07.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = study07.hpp; sourceTree = "<group>"; };
+		CE0C13232388E49200BBC27D /* study08.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = study08.cpp; sourceTree = "<group>"; };
+		CE0C13242388E49200BBC27D /* study08.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = study08.hpp; sourceTree = "<group>"; };
+		CE0C13262388F92700BBC27D /* study09.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = study09.cpp; sourceTree = "<group>"; };
+		CE0C13272388F92700BBC27D /* study09.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = study09.hpp; sourceTree = "<group>"; };
+		CE0C13292388FE1A00BBC27D /* study10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = study10.cpp; sourceTree = "<group>"; };
+		CE0C132A2388FE1A00BBC27D /* study10.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = study10.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,14 @@
 			isa = PBXGroup;
 			children = (
 				CE0C12DB23877FB300BBC27D /* main.cpp */,
+				CE0C132A2388FE1A00BBC27D /* study10.hpp */,
+				CE0C13292388FE1A00BBC27D /* study10.cpp */,
+				CE0C13272388F92700BBC27D /* study09.hpp */,
+				CE0C13262388F92700BBC27D /* study09.cpp */,
+				CE0C13242388E49200BBC27D /* study08.hpp */,
+				CE0C13232388E49200BBC27D /* study08.cpp */,
+				CE0C13212388DE9300BBC27D /* study07.hpp */,
+				CE0C13202388DE9300BBC27D /* study07.cpp */,
 				CE0C131E2387FE3200BBC27D /* study06.hpp */,
 				CE0C131D2387FE3200BBC27D /* study06.cpp */,
 				CE0C131B2387FD3000BBC27D /* study05.hpp */,
@@ -149,11 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0C13282388F92700BBC27D /* study09.cpp in Sources */,
 				CE0C131C2387FD3000BBC27D /* study05.cpp in Sources */,
 				CE0C13192387F7C700BBC27D /* study04.cpp in Sources */,
 				CE0C13162387E67100BBC27D /* study03.cpp in Sources */,
 				CE0C12E92387CB6F00BBC27D /* study02.cpp in Sources */,
+				CE0C13222388DE9300BBC27D /* study07.cpp in Sources */,
 				CE0C12E62387966100BBC27D /* study01.cpp in Sources */,
+				CE0C132B2388FE1A00BBC27D /* study10.cpp in Sources */,
+				CE0C13252388E49200BBC27D /* study08.cpp in Sources */,
 				CE0C12DC23877FB300BBC27D /* main.cpp in Sources */,
 				CE0C131F2387FE3200BBC27D /* study06.cpp in Sources */,
 			);

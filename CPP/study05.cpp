@@ -11,11 +11,15 @@
 #include <pthread.h>
 using namespace std;
 #define NUM_THREADS 5
+
 // 线程的运行函数
 void* say_hello(void* args) {
     cout << "Hello Runoob！" << endl;
     return 0;
 }
+/*
+ 以下简单的实例代码使用 pthread_create() 函数创建了 5 个线程，每个线程输出"Hello Runoob！"
+ **/
 void func13() {
     // 定义线程的 id 变量，多个变量使用数组
     pthread_t tids[NUM_THREADS];
