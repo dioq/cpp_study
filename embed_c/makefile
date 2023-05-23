@@ -1,7 +1,10 @@
 cc=clang++
 
-program:
-	@$(cc) main.cpp -o main
+loader:
+	@$(cc) loader.cpp -o load
+
+test:
+	@$(cc) test.c -o test
 
 clean:
-	@-rm -rf main
+	@-rm -rf load *.log
