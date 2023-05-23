@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
 	string str10 = "Hello";
 	string str20 = "World";
 	string str30;

@@ -6,36 +6,45 @@ using namespace std;
  * */
 
 // 基类 Shape
-class Shape {
-	public:
-		void setWidth(int w) {
-			width = w;
-		}
-		void setHeight(int h) {
-			height = h;
-		}
-	protected:
-		int width;
-		int height;
+class Shape
+{
+public:
+	void setWidth(int w)
+	{
+		width = w;
+	}
+	void setHeight(int h)
+	{
+		height = h;
+	}
+
+protected:
+	int width;
+	int height;
 };
 
 // 基类 PaintCost
-class PaintCost {
-	public:
-		int getCost(int area) {
-			return area * 70;
-		}
+class PaintCost
+{
+public:
+	int getCost(int area)
+	{
+		return area * 70;
+	}
 };
 
 // 派生类
-class Rectangle: public Shape, public PaintCost {//C++ 支持多继承
-	public:
-		int getArea() {
-			return (width * height);
-		}
+class Rectangle : public Shape, public PaintCost
+{ // C++ 支持多继承
+public:
+	int getArea()
+	{
+		return (width * height);
+	}
 };
 
-int main() {
+int main()
+{
 	Rectangle Rect;
 	int area;
 

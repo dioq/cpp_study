@@ -10,19 +10,21 @@ using namespace std;
    4.C语言的结构体是不可以继承的，C++的结构体是可以从其他的结构体或者类继承过来的。
  **/
 
-//定义好结构体类型
-struct stu {
-	char name[10];//注意，因为结构体是一种类型，所以不能在定义这种类型时初始化变量。
+// 定义好结构体类型
+struct stu
+{
+	char name[10]; // 注意，因为结构体是一种类型，所以不能在定义这种类型时初始化变量。
 	int score;
 };
 
-int main() {
-	stu XiaoMing;//C++定义变量的方法，可以省略struct
+int main()
+{
+	stu XiaoMing; // C++定义变量的方法，可以省略struct
 	XiaoMing.name[0] = 'a';
 	XiaoMing.score = 100;
 	cout << "C++  score : " << XiaoMing.score << endl;
 
-	struct stu XiaoHong;//C语言定义变量的方法，不能省略struct
+	struct stu XiaoHong; // C语言定义变量的方法，不能省略struct
 	XiaoHong.score = 99;
 	cout << "C    score : " << XiaoHong.score << endl;
 
