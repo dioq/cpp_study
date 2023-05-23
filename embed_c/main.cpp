@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <stdexcept>
+#include <stdio.h>
 
 using namespace std;
 
@@ -9,6 +10,11 @@ template <typename T>
 inline T const &Max(T const &a, T const &b)
 {
 	return a < b ? b : a;
+}
+
+void test_C_func()
+{
+	printf("The C function is going...\n");
 }
 
 int main()
@@ -25,5 +31,6 @@ int main()
 	string s2 = "World";
 	cout << "Max(s1, s2): " << Max(s1, s2) << endl;
 
+	test_C_func();
 	return 0;
 }
