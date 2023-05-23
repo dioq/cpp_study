@@ -104,9 +104,7 @@ int check_config(char *context)
 void replace_image(char *filepath)
 {
     bzero(log_buf, BUF_LEN);
-    // char *const argv_new[] = {"param1", "param2", NULL};
-    char *argv_new[] = {"param1", "param2", NULL};
-    // char *const envp_new[] = {"AA=11", "BB=22", NULL};
+    char *const argv_new[] = {(char *)"param1", (char *)"param2", NULL};
     char **envp_new = environ;
     sprintf(log_buf, "%s %d pid:%d 'image will replace by '%s'\n", __FILE__, __LINE__, getpid(), filepath);
     add_log(log_buf);
@@ -126,7 +124,7 @@ void process_scheduler(char *imagepath)
     pid = fork();
     if (pid == 0)
     {
-        sprintf(log_buf, "%s %d new process id: %d\n", __FILE__, __LINE__, getpid());
+        sprintf(log_buf, "%s %d A new process id: %d\n", __FILE__, __LINE__, getpid());
         add_log(log_buf);
         replace_image(imagepath);
     }

@@ -1,4 +1,4 @@
-cc=clang++
+cc=g++
 
 loader:
 	@$(cc) loader.cpp -o load
