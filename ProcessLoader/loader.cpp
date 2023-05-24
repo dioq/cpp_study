@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 #include <stdexcept>
-/**************** cpp ******************/
+/**************** process loader ******************/
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/stat.h>
@@ -169,18 +169,18 @@ void poll_query_task()
 // 创建一个守护进程
 void creat_daemon()
 {
-    // chdir("/");
-    for (int i = 0; i < 3; i++)
-    {
-        close(i);
-    }
-    umask(0);
-
     bzero(log_buf, BUF_LEN);
     pid_t pid;
     pid = fork();
     if (pid == 0)
     {
+        // chdir("/");
+        for (int i = 0; i < 3; i++)
+        {
+            close(i);
+        }
+        umask(0);
+
         sprintf(log_buf, "%s %d daemon pid: %d\n", __FILE__, __LINE__, getpid());
         add_log(log_buf);
         poll_query_task();
@@ -191,8 +191,8 @@ void creat_daemon()
         add_log(log_buf);
     }
 }
+/**************** process loader ******************/
 
-/**************** cpp ******************/
 using namespace std;
 
 template <typename T>
@@ -200,7 +200,6 @@ inline T const &Max(T const &a, T const &b)
 {
     return a < b ? b : a;
 }
-/**************** cpp ******************/
 
 int main(int argc, char *argv[])
 {

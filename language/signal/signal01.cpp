@@ -24,7 +24,7 @@ int main()
 	while (1)
 	{
 		cout << "Going to sleep...." << endl;
-		sleep(1);
+		sleep(10);
 	}
 
 	return 0;
