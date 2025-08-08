@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 #include <chrono>   // std::chrono::seconds
 #include <iostream> // std::cout
 #include <thread>   // std::thread, std::this_thread::sleep_for
